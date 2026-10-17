@@ -1,0 +1,6 @@
+id=mouse_no_accel
+name=Mouse No Acceleration
+version=v1.0
+versionCode=1
+author=liu
+description=Forces AOSP's velocity-independent (flat) mouse pointer curve on Android 16 by patching CursorInputMapper's curve selection in /system/lib64/libinputreader.so at boot. Removes mouse acceleration while keeping the system pointer-speed setting functional. Hash + byte guarded, auto-skips on unknown ROM builds.
